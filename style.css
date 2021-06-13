@@ -5,3 +5,7 @@ body{
 .height{
     min-height: 100vh;
 }
+#secTitle{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
