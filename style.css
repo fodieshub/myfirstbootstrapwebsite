@@ -17,3 +17,6 @@ body{
 .height-80{
     min-height: 80vh;
 }
+.fa-check{
+    margin-right: 10px;
+}
