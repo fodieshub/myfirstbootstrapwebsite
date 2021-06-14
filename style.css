@@ -20,3 +20,6 @@ body{
 .fa-check{
     margin-right: 10px;
 }
+.about-picture{
+    background: url(../myfirstbootstrapwebsite/img/code.jpeg);
+}
