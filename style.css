@@ -26,6 +26,9 @@
 #filter{
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../myfirstbootstrapwebsite/img/code.jpeg)center/cover no-repeat fixed;
 }
+#contact{
+    background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../myfirstbootstrapwebsite/img/contact.jpg)center/cover no-repeat fixed;
+}
 
 /* Google map Responsiveness */
 .iframe-container{
