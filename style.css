@@ -26,7 +26,7 @@
 #filter{
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../myfirstbootstrapwebsite/img/code.jpeg)center/cover no-repeat fixed;
 }
-#contact{
+#contact, #progress{
     background: linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)) ,url(../myfirstbootstrapwebsite/img/contact.jpg)center/cover no-repeat fixed;
 }
 
@@ -49,7 +49,3 @@
     height: 100%;
     width: 100%;
 }
-/* #img-s{
-    height: 70%;
-    width: 70%;
-} */
