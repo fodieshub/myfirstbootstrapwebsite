@@ -629,8 +629,8 @@
             <a href="#" class="btn">
               <i class="fab fa-google-plus fa-3x text-primary m-2"></i>
             </a>
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-              Launch demo modal
+            <button type="button" class="btn btn-danger d-block mx-auto mt-4" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Log Out
             </button>
             
           
@@ -640,21 +640,19 @@
     <!-- End of Footer Section -->
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal" id="exampleModal">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
-        <div class="modal-header">
-          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-            <span aria-hidden="true">&times;</span>
-          </button>
+        <div class="modal-header bg-danger text-center text-light">
+          <h4 class="modal-title text-center">Sure You Want to Logout?</h4>
+          <button type="button" class="close" data-bs-dismiss="modal">&times;</button>
         </div>
-        <div class="modal-body">
-          ...
+        <div class="modal-body bg-primary text-center text-light">
+          <h3>Sorry to see you go.</h3>
         </div>
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Save changes</button>
+          <button type="button" class="btn-primary" data-bs-dismiss="modal">Close</button>
+          <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
         </div>
       </div>
     </div>
